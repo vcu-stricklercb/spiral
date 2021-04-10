@@ -5,4 +5,4 @@ def spiralize(number):
     Spiralmatrix_second_diagonal = sum(Spiralmatrix[i][n-i-1] for i in range(n)) - 1
     number = Spiralmatrix_first_diagonal + Spiralmatrix_second_diagonal
     print(number)
-    return number
+    
