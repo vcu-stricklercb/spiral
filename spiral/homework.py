@@ -6,4 +6,4 @@ def spiralize(number):
     print(str(Spiralmatrix_first_diagonal)+" "+str(Spiralmatrix_second_diagonal)) 
     Value = Spiralmatrix_first_diagonal + Spiralmatrix_second_diagonal
     print(Value)
-return Value 
+    return Value 
